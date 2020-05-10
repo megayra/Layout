@@ -1,0 +1,36 @@
+.promo {
+    background-color: theme-color("section-bg");
+    border-radius: $border-radius-xxlg;
+    box-shadow: $card-box-shadow;
+    margin-right: 1rem;
+    width: 37.5rem;
+
+    .info {
+        padding: 2rem;
+        width: 52%;
+    }
+
+    .title {
+        text-transform: uppercase;
+        font-size: $font-size-lg;
+        font-weight: $font-weight-bold;
+        color: color-yiq(theme-color("section-bg"));
+    }
+
+    .description {
+        color: rgba(color-yiq(theme-color("section-bg")), .7);
+        font-size: 0.875rem;
+    }
+
+    img {
+        border-top-right-radius: $border-radius-xxlg;
+        border-bottom-right-radius: $border-radius-xxlg;
+        width: 48%;
+    }
+}
+
+.promo-list {
+    display: flex;
+    height: auto;
+    padding-left: 0;
+}

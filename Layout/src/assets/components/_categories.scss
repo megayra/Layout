@@ -1,0 +1,45 @@
+.categories-wrapper {
+    h3 {
+        color: theme-color("font-color");
+        margin-bottom: 2rem;
+    }
+    .categories-container {
+        .category-list {
+            display: flex;
+            overflow-x: auto;
+            overflow-y: hidden;
+            height: auto;
+            padding-left: 0;
+            .single-category {
+                list-style-type: none;
+                margin-right: 8px;
+                a {
+                    text-decoration: none;
+                    color: rgb(134, 151, 162);
+                    display: inline-block;
+                    position: relative;
+
+                    .svg-wrapper {
+                        display: flex;
+                        -webkit-box-pack: center;
+                        justify-content: center;
+                        text-align: center;
+                        padding: 1rem;
+                        background: rgb(26, 33, 42);
+                        border-radius: 25%;
+
+                        svg {
+                            font-size: 2rem;
+                        }
+                    }
+
+                    .category-info {
+                        font-size: 0.6875rem;
+                        text-align: center;
+                        margin-top: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
