@@ -1,11 +1,11 @@
 .providers-wrapper {
     padding-bottom: 0.25rem;
-    margin-bottom: 2rem;
-    border-bottom: 1px solid rgb(49, 55, 63);
+    margin-bottom: $provider-margin-bottom;
+    border-bottom: 1px solid theme-color("link-color");
 
     h3 {
         color: theme-color("font-color");
-        margin-bottom: 2rem;
+        margin-bottom: $provider-margin-bottom;
     }
     .providers-container {
         .providers-list {
@@ -15,7 +15,7 @@
             overflow-y: hidden;
             .single-provider {
                 list-style-type: none;
-                margin-right: 1rem;
+                margin-right: $provider-margin-right;
                 background-color: #31373f;
                 border-radius: 4px;
                 a {
@@ -26,13 +26,13 @@
                     align-items: center;
                     -webkit-box-pack: center;
                     justify-content: center;
-                    padding: 1rem;
+                    padding: $provider-margin-right;
 
                     img {
                         max-width: 100%;
                         max-height: 100%;
-                        border-radius: 25%;
-                        margin-right: 1rem;
+                        border-radius: $provider-border-radius;
+                        margin-right: $provider-margin-right;
                     }
                 }
             }

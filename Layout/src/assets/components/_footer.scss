@@ -8,7 +8,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     color: theme-color("font-color");
-    font-size: 0.875rem;
+    font-size: $font-size-md;
 
     .footer-info {
         flex: 1;
@@ -26,10 +26,10 @@
         .social-links {
             a {
                 display: inline-block;
-                background-color: rgb(49, 55, 63);
+                background-color: theme-color("link-color");
                 margin-right: 0.5rem;
                 margin-bottom: 0.5rem;
-                font-size: 1.25rem;
+                font-size: $font-size-lg;
                 line-height: 0;
                 cursor: pointer;
                 border-color: rgb(53, 60, 68);
@@ -57,7 +57,7 @@
     }
 
     .footer-list {
-        border-top: 1px solid rgb(49, 55, 63);
+        border-top: 1px solid theme-color("link-color");
         width: 100%;
         justify-content: space-around;
         padding-left: 0;

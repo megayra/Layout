@@ -9,11 +9,11 @@
             -webkit-box-align: center;
             align-items: center;
             flex-basis: 9.625rem;
-            padding: 0px 1rem;
+            padding: 0px $provider-margin-right;
             min-width: 156px;
 
             // &:first-child {
-                border-right: 1px solid rgb(49, 55, 63);
+                border-right: 1px solid theme-color("link-color");
             // }
 
             a {
@@ -25,28 +25,28 @@
                 }
                 
                 span {
-                    margin-left: 1rem;
-                    font-size: 0.75rem;
-                    line-height: 1rem;
-                    color: rgb(134, 151, 162);
+                    margin-left: $font-size-mlg;
+                    font-size: $font-size-sm;
+                    line-height: $font-size-mlg;
+                    color: theme-color("cat-color");
                 }
             }
         }
     }
     .login-wrapper {
         .btn {
-            font-size: 1rem;
+            font-size: $font-size-mlg;
             min-width: 133px;
-            line-height: 1.0625rem;
+            line-height: $header-line-height;
             text-decoration: none;
             border-radius: 6.25rem;
-            padding: 0.75rem 2.5rem;
+            padding: $font-size-sm 2.5rem;
             color: theme-color("font-color");
         }
 
         .signIn {
-            background-color: rgb(49, 55, 63);
-            margin-right: 1rem;
+            background-color: theme-color("link-color");
+            margin-right: $provider-margin-right;
         }
 
         .registerBtn {

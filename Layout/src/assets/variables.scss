@@ -24,6 +24,9 @@ $theme-colors: (
     "section-bg": #16212A,
     // "section-bg": #fff,
     "font-color": #fff,
+    "link-color": rgb(49, 55, 63),
+    "cat-color": rgb(134, 151, 162),
+    "svg-bg": rgb(26, 33, 42),
 );
 
 $grid-gutter-width: 20px;
@@ -35,7 +38,7 @@ $font-weight-semibold: 600;
 $font-size-sm:                  0.75rem;
 $font-size-md:                  0.875rem;
 $font-size-mlg:                 1rem;
-$font-size-lg:                  1.5rem;
+$font-size-lg:                  1.25rem;
 $font-size-xlg:                 1.5rem;
 $font-size-xxlg:                2rem;
 
@@ -67,4 +70,19 @@ $card-spacer-x:                     .75rem;
 $card-border-color:                 transparent;
 $card-border-radius:                .25rem;
 
+//providers
+$provider-margin-bottom: 2rem;
+$provider-margin-right: 1rem;
+$provider-border-radius: 25%;
 
+//popular
+$popular-margin-bottom: 3rem;
+$popular-margin-right: 1rem;
+$popular-border-radius: 25%;
+
+//header wrapper
+$header-line-height: 1.0625rem;
+
+//categories
+$category-margin-top: 5px;
+$category-margin-right: 8px;

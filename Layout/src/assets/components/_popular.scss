@@ -1,11 +1,11 @@
 .popular-wrapper {
     padding-bottom: 0.25rem;
-    margin-bottom: 3rem;
-    border-bottom: 1px solid rgb(49, 55, 63);
+    margin-bottom: $popular-margin-bottom;
+    border-bottom: 1px solid theme-color("link-color");
 
     h3 {
         color: theme-color("font-color");
-        margin-bottom: 2rem;
+        margin-bottom: $font-size-xxlg;
     }
     .popular-container {
         .popular-list {
@@ -15,22 +15,22 @@
             overflow-y: hidden;
             .single-item {
                 list-style-type: none;
-                margin-right: 1rem;
+                margin-right: $popular-margin-right;
                 a {
                     text-decoration: none;
                     display: flex;
                     width: 15.75rem;
-                    color: rgb(134, 151, 162);
+                    color: theme-color("cat-color");
 
                     img {
                         width: 100px;
                         height: 100px;
-                        border-radius: 25%;
-                        margin-right: 1rem;
+                        border-radius: $popular-border-radius;
+                        margin-right: $popular-margin-right;
                     }
 
                     .popular-info {
-                        font-size: 1rem;
+                        font-size: $font-size-mlg;
                     }
                 }
             }

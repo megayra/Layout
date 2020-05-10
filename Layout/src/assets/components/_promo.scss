@@ -19,7 +19,7 @@
 
     .description {
         color: rgba(color-yiq(theme-color("section-bg")), .7);
-        font-size: 0.875rem;
+        font-size: $font-size-md;
     }
 
     img {

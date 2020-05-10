@@ -1,7 +1,7 @@
 .categories-wrapper {
     h3 {
         color: theme-color("font-color");
-        margin-bottom: 2rem;
+        margin-bottom: $provider-margin-bottom;
     }
     .categories-container {
         .category-list {
@@ -12,10 +12,10 @@
             padding-left: 0;
             .single-category {
                 list-style-type: none;
-                margin-right: 8px;
+                margin-right: $category-margin-right;
                 a {
                     text-decoration: none;
-                    color: rgb(134, 151, 162);
+                    color: theme-color("cat-color");
                     display: inline-block;
                     position: relative;
 
@@ -24,19 +24,19 @@
                         -webkit-box-pack: center;
                         justify-content: center;
                         text-align: center;
-                        padding: 1rem;
-                        background: rgb(26, 33, 42);
-                        border-radius: 25%;
+                        padding: $provider-margin-right;
+                        background: theme-color("svg-bg");
+                        border-radius: $provider-border-radius;
 
                         svg {
-                            font-size: 2rem;
+                            font-size: $font-size-xxlg;
                         }
                     }
 
                     .category-info {
                         font-size: 0.6875rem;
                         text-align: center;
-                        margin-top: 5px;
+                        margin-top: $category-margin-top;
                     }
                 }
             }
